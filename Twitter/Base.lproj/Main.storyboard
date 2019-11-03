@@ -63,50 +63,25 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="171"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rI7-Rz-mrI">
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rI7-Rz-mrI">
                                             <rect key="frame" x="16" y="11" width="65" height="65"/>
-                                            <constraints>
-                                                <constraint firstAttribute="width" relation="lessThanOrEqual" constant="65" id="8dl-Nt-HE2"/>
-                                                <constraint firstAttribute="width" relation="lessThanOrEqual" constant="65" id="A2J-se-qvf"/>
-                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="65" id="Upi-Ho-4ds"/>
-                                                <constraint firstAttribute="width" relation="lessThanOrEqual" constant="65" id="isb-eg-IMj"/>
-                                                <constraint firstAttribute="width" relation="lessThanOrEqual" constant="65" id="ljh-Za-2pj"/>
-                                                <constraint firstAttribute="height" constant="65" id="wJd-k1-yP2"/>
-                                                <constraint firstAttribute="width" constant="65" id="whR-zF-Fgn"/>
-                                            </constraints>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" misplaced="YES" text="John Doe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7VI-oR-c28">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" fixedFrame="YES" text="John Doe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7VI-oR-c28">
                                             <rect key="frame" x="89" y="11" width="82" height="34"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Tweet Content" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fgc-kG-bUz">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tweet Content" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fgc-kG-bUz">
                                             <rect key="frame" x="89" y="35" width="260" height="101"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
-                                    <constraints>
-                                        <constraint firstItem="7VI-oR-c28" firstAttribute="leading" secondItem="rI7-Rz-mrI" secondAttribute="trailing" constant="8" id="2lN-SI-tI7"/>
-                                        <constraint firstItem="7VI-oR-c28" firstAttribute="top" secondItem="7n5-xb-TFj" secondAttribute="topMargin" id="9sG-07-AbK"/>
-                                        <constraint firstItem="rI7-Rz-mrI" firstAttribute="leading" secondItem="7n5-xb-TFj" secondAttribute="leadingMargin" id="D6o-Bl-l2r"/>
-                                        <constraint firstItem="rI7-Rz-mrI" firstAttribute="leading" secondItem="7n5-xb-TFj" secondAttribute="leadingMargin" id="Ftm-KE-CFj"/>
-                                        <constraint firstItem="rI7-Rz-mrI" firstAttribute="leading" secondItem="7n5-xb-TFj" secondAttribute="leadingMargin" id="Gf5-62-WGF"/>
-                                        <constraint firstItem="rI7-Rz-mrI" firstAttribute="top" secondItem="7n5-xb-TFj" secondAttribute="topMargin" id="HfP-8u-LcR"/>
-                                        <constraint firstItem="fgc-kG-bUz" firstAttribute="top" secondItem="7VI-oR-c28" secondAttribute="bottom" constant="-6.5" id="N7K-B5-1ee"/>
-                                        <constraint firstItem="7VI-oR-c28" firstAttribute="top" secondItem="7n5-xb-TFj" secondAttribute="topMargin" id="QXa-pZ-eN8"/>
-                                        <constraint firstItem="rI7-Rz-mrI" firstAttribute="top" secondItem="7n5-xb-TFj" secondAttribute="topMargin" id="Wyf-ut-b15"/>
-                                        <constraint firstItem="rI7-Rz-mrI" firstAttribute="top" secondItem="7n5-xb-TFj" secondAttribute="topMargin" id="Xu4-BL-E1O"/>
-                                        <constraint firstItem="rI7-Rz-mrI" firstAttribute="leading" secondItem="7n5-xb-TFj" secondAttribute="leadingMargin" id="YCN-3P-94n"/>
-                                        <constraint firstItem="rI7-Rz-mrI" firstAttribute="top" secondItem="7n5-xb-TFj" secondAttribute="topMargin" id="bSA-w7-bQx"/>
-                                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="7VI-oR-c28" secondAttribute="trailing" constant="20" symbolic="YES" id="csU-TE-93K"/>
-                                        <constraint firstItem="rI7-Rz-mrI" firstAttribute="leading" secondItem="7n5-xb-TFj" secondAttribute="leadingMargin" id="eKQ-dk-Uu0"/>
-                                        <constraint firstAttribute="trailing" secondItem="fgc-kG-bUz" secondAttribute="trailing" constant="174" id="ehf-oF-Obx"/>
-                                        <constraint firstItem="rI7-Rz-mrI" firstAttribute="top" secondItem="7n5-xb-TFj" secondAttribute="topMargin" id="pTl-AQ-HxF"/>
-                                        <constraint firstItem="fgc-kG-bUz" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="rI7-Rz-mrI" secondAttribute="trailing" constant="8" symbolic="YES" id="sX4-yz-Lq1"/>
-                                    </constraints>
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="profileimageview" destination="rI7-Rz-mrI" id="vsD-HJ-D3n"/>
